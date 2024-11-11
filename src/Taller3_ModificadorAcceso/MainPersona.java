@@ -11,6 +11,6 @@ public class MainPersona {
         persona.setNombre("Andres");
         System.out.println("Nuevo Nombre: " + persona.getNombre());
 
-        persona.nombre = "Juan";
+        // persona.nombre = "Juan";
     }
 }
