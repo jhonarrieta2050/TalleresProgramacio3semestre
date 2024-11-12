@@ -7,7 +7,7 @@ public class MainVehiculo {
 
         Moto moto = new Moto("Deportiva");
 
-        moto.tipo = "Chopper";
-        moto.mostrarInfo();
+        //  moto.tipo = "Chopper";
+        // moto.mostrarInfo();
     }
 }
