@@ -11,7 +11,7 @@ public class MainEstudiante {
         estudiante.setNombre(scanner.nextLine());
         System.out.println("Ingrese la edad del estudiante: ");
         estudiante.setEdad(scanner.nextInt());
-        System.out.println("Ingrese la nombre del estudiante: ");
+        System.out.println("Ingrese la nota del estudiante: ");
         estudiante.setNotaPromedio(scanner.nextDouble());
 
         System.out.println(estudiante);

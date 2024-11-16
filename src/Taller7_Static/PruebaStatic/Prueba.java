@@ -4,11 +4,17 @@ public class Prueba {
     private int valor;
 
 
-    public static void modificarValor() {
-        //  valor = 10; // Error de compilación: 'valor' es un atributo no estático
+    public void modificarValor() {
+          valor = 10; // Error de compilación: 'valor' es un atributo no estático
+    }
+
+    public int getValor() {
+        return valor;
     }
 
     public static void main(String[] args) {
-        modificarValor();
+        Prueba prueba = new Prueba();
+        prueba.modificarValor();
+        System.out.println(prueba.valor);
     }
 }

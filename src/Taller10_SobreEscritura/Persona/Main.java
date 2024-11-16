@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
 
         Persona persona = new Persona();
-        Estudiante estudiante = new Estudiante();
-        Profesor profesor = new Profesor();
+        Persona estudiante = new Estudiante();
+        Persona profesor = new Profesor();
 
 
         Persona p1 = new Estudiante();

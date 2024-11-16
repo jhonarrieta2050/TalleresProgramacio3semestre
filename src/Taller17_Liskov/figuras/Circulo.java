@@ -1,10 +1,7 @@
-package Taller11_clasesAbstractas.Figuras;
+package Taller17_Liskov.figuras;
 
-import Taller11_clasesAbstractas.Figura;
-
-class Circulo extends Figura {
+public class Circulo extends Figura{
     private double radio;
-
 
     public Circulo(double radio) {
         this.radio = radio;

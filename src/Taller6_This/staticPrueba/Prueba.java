@@ -7,7 +7,7 @@ public class Prueba {
         this.nombre = nombre;
     }
 
-    public static void mostrarNombre() {
-        //   System.out.println(this.nombre);
+    public  void mostrarNombre() {
+          System.out.println(this.nombre);
     }
 }

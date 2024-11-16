@@ -57,4 +57,13 @@ public class CuentaBancaria {
     public void setTipoCuenta(String tipoCuenta) {
         this.tipoCuenta = tipoCuenta;
     }
+
+    @Override
+    public String toString() {
+        return "CuentaBancaria{" +
+                "numeroCuenta='" + numeroCuenta + '\'' +
+                ", saldo=" + saldo +
+                ", tipoCuenta='" + tipoCuenta + '\'' +
+                '}';
+    }
 }

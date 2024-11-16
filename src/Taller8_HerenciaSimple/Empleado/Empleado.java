@@ -1,7 +1,7 @@
 package Taller8_HerenciaSimple.Empleado;
 
 public class Empleado {
-    protected String nombre;
+    private String nombre;
     protected double salario;
 
 

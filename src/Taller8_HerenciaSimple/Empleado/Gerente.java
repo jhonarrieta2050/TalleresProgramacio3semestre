@@ -10,7 +10,7 @@ public class Gerente extends Empleado {
 
     @Override
     public void mostrarDetalles() {
-        super.mostrarDetalles();
+        System.out.println(salario);
         System.out.println("Departamento: " + departamento);
     }
 }

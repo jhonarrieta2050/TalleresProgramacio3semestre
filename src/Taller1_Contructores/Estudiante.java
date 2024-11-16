@@ -27,4 +27,13 @@ public class Estudiante {
         System.out.println("Edad: " + edad);
         System.out.println("Curso: " + curso);
     }
+
+    @Override
+    public String toString() {
+        return "Estudiante{" +
+                "curso='" + curso + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                '}';
+    }
 }

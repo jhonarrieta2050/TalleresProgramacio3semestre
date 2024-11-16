@@ -7,10 +7,6 @@ public class Pez implements Nadador, Respirador {
         this.especie = especie;
     }
 
-    @Override
-    public void nadar() {
-        System.out.println(especie + " está nadando.");
-    }
 
     @Override
     public void respirar() {
@@ -19,5 +15,10 @@ public class Pez implements Nadador, Respirador {
 
     public void mostrarDetalles() {
         System.out.println("Especie de pez: " + especie);
+    }
+
+    @Override
+    public void nadar() {
+
     }
 }

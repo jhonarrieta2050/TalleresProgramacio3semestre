@@ -50,5 +50,14 @@ public class Libro {
     public void setNumeroPaginas(int numeroPaginas) {
         this.numeroPaginas = numeroPaginas;
     }
+
+    @Override
+    public String toString() {
+        return "Libro{" +
+                "autor='" + autor + '\'' +
+                ", titulo='" + titulo + '\'' +
+                ", numeroPaginas=" + numeroPaginas +
+                '}';
+    }
 }
 

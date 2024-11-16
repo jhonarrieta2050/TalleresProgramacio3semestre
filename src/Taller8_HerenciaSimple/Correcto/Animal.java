@@ -10,5 +10,6 @@ class Vehiculo {
     public void arrancar() {
         System.out.println("El vehículo está arrancando");
     }
+
 }
 

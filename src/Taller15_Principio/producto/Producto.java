@@ -14,7 +14,7 @@ public class Producto {
         this.descuento = descuento;
     }
 
-    // Getters y Setters
+
     public String getNombre() {
         return nombre;
     }
